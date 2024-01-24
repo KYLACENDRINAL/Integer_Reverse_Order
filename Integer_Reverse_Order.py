@@ -5,5 +5,7 @@
 # Convert the integer to a string, reverse it, and then iterate through each character
 def reverse_digits(integer):
     reverse_digits=[char for char in str(integer)[::-1]]
+
     
 # Print the reversed digits with a space separating them
+    print (" ".join(reverse_digits))

@@ -9,3 +9,8 @@ def reverse_digits(integer):
     
 # Print the reversed digits with a space separating them
     print (" ".join(reverse_digits))
+
+# Example/Application
+number=2108
+print ("Given number is", number)
+reverse_digits(number)
